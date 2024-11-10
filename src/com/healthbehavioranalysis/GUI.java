@@ -27,7 +27,6 @@ public class GUI {
     }
 
     private void initialize() {
-        // Set up the main frame
         frame = new JFrame("Health Behavior Analysis");
 
         try {
@@ -107,11 +106,11 @@ public class GUI {
 
         // Reset Filters Button
         resetButton = new JButton("Reset Filters");
-        resetButton.setForeground(new Color(0x5A4FF3)); // Set text color to #5A4FF3
-        resetButton.setBackground(new Color(0x333333)); // Optional: match background with the dark theme
+        resetButton.setForeground(new Color(0x5A4FF3));
+        resetButton.setBackground(new Color(0x333333));
         resetButton.setBorder(BorderFactory.createCompoundBorder(
-                new LineBorder(new Color(0x5A4FF3), 1, true), // Outer colored border
-                BorderFactory.createEmptyBorder(2, 10, 2, 10) // Inner padding to maintain button size
+                new LineBorder(new Color(0x5A4FF3), 1, true),
+                BorderFactory.createEmptyBorder(2, 10, 2, 10)
         ));
         gbc.gridx = 2;
         frame.add(resetButton, gbc);
