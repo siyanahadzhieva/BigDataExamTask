@@ -11,6 +11,7 @@ public class Main {
 
         // Set custom highlight color to #5A4FF3
         UIManager.put("Component.focusColor", new Color(0x5A4FF3));
+
         UIManager.put("Button.focusedBorderColor", new Color(0x5A4FF3));
         UIManager.put("ComboBox.selectionBackground", new Color(0x5A4FF3));
         UIManager.put("TextField.selectionBackground", new Color(0x5A4FF3));
